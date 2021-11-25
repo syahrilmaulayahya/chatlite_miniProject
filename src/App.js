@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 import { useAuth0 } from '@auth0/auth0-react';
+import LandingPage from './component/LandingPage';
+
+
+import Home from './component/Home';
 
 function App() {
-  const { loginWithRedirect } = useAuth0();
-
+  const { getIdTokenClaims} = useAuth0();
+  getIdTokenClaims().then(resp=>{
+    console.log((resp));
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <button
-          className="App-link"
-          onClick={() => {loginWithRedirect()}}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Login
-        </button>
-      </header>
-    </div>
+    // <LandingPage/>
+    <Home/>
   );
 }
 

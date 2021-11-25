@@ -1,0 +1,32 @@
+.border {
+  border-style: solid;
+  border-spacing: 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.borderLine {
+  border-style: solid;
+  border-spacing: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: line-through;
+}
+
+.margin {
+  margin-top: 30px;
+}
+
+.chatLite {
+  position: absolute;
+  left: 43.66%;
+  right: 0%;
+  top: 27.82%;
+  bottom: 13.53%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 78px;
+}
