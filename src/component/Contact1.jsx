@@ -3,7 +3,7 @@ import { useMutation, useQuery, useSubscription } from "@apollo/client";
 import { useRecoilState } from "recoil";
 import { selectedUserState } from "../recoil";
 import { useAuth0 } from "@auth0/auth0-react";
-import "bootstrap/dist/css/bootstrap.css";
+import "./bootstrap.min.css";
 import { CircularProgress } from "@material-ui/core";
 import GroupList from "./GroupList";
 import { useState } from "react";
