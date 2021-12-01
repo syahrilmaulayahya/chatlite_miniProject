@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.css";
+import "./bootstrap/dist/css/bootstrap.css";
 import Contact1 from "../../component/Contact1";
 import "./Home1.css";
 import mainLogo from "./Group 1.png";

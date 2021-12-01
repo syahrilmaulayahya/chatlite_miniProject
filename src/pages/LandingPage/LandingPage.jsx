@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.css";
+import "./bootstrap/dist/css/bootstrap.css";
 import { useAuth0 } from "@auth0/auth0-react";
 import mainLogo from "./Group 1.png";
 const LandingPage = () => {
