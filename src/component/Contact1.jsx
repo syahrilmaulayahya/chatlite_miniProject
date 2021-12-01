@@ -370,12 +370,12 @@ function Contact1() {
             <div key={item?.id}>
               <div onClick={() => setSelectedUser(item)}>
                 <GroupList group={item}></GroupList>
-
+               
                 <button
                   className="btn btn-light"
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ color: "#1BA0E6" }}
+                  style={{ color: "#1BA0E6"}}
                   onClick={() => handleLeaveOwnedGroup(item.id)}
                 >
                   Leave Group
@@ -396,7 +396,7 @@ function Contact1() {
             <div key={item?.id}>
               <div onClick={() => setSelectedUser(item)}>
                 <GroupList group={item}></GroupList>
-
+                
                 <button
                   className="btn btn-light"
                   target="_blank"
