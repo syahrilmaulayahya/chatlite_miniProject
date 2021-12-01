@@ -9,7 +9,7 @@ ReactDOM.render(
   <Auth0Provider
     domain="dev-m-ead5z8.us.auth0.com"
     clientId="CKR9ZNPo8kU5ExllYq7TgbwSHBfOz1rs"
-    redirectUri="http://localhost:3000"
+    redirectUri="https://chatlite.netlify.app/"
     scope="read:current_user update:current_user_metadata"
   >
     <App />

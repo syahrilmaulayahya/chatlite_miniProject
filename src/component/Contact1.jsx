@@ -415,7 +415,7 @@ function Contact1() {
       <button
         className="btn btn-light"
         onClick={() => {
-          logout({ returnTo: "http://localhost:3000/" });
+          logout({ returnTo: "https://chatlite.netlify.app/" });
         }}
         target="_blank"
         rel="noopener noreferrer"
