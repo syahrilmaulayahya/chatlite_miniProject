@@ -32,6 +32,8 @@ const GET_MESSAGES_GROUP = gql`
       id
       fromUserId
       message
+      fromUserView
+      toUserView
       fromUser {
         name
         picture
